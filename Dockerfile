@@ -1,4 +1,4 @@
-FROM mysql:5.7.15
+FROM mysql:5.7
 
 # add custom mysql configuration file
 COPY mysql.cnf /etc/mysql/mysql.conf.d/
